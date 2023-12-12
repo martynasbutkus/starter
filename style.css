@@ -25,19 +25,31 @@ header {
 
 form {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 80%; 
-    margin: 0 auto;
+    bottom: -23px;
+    background-color: #04A7E4;
+    margin-left: 85px;
 }
 
 #text {
-    width: 70%;
-    background-color: #04A7E4;
+    width: 74%;
     border: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #A0DBF3;
+    background: none;
 }
 
 #add {
     background-color: #01B8FF;
     border: none;
+    width: 5%;
+    height: 50px;
+    width: 50px;
+    fill: white;
 }
 
 #add::before {
@@ -50,7 +62,7 @@ form {
 ul {
     width: 80%;
     list-style: none;
-    padding: 0;
+    padding-top: 30px;
     margin: 0;
 }
 
